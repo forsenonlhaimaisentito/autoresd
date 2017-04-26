@@ -1,0 +1,9 @@
+{
+	"apps": [
+		{
+			"name": "autoresd",
+			"script": "autoresd.js",
+			"autorestart": false
+		}
+	],
+}
