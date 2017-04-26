@@ -1,0 +1,23 @@
+{
+	"name": "autoresd",
+	"version": "1.0.0",
+	"description": "Automatically re-configures virtual screens when resized.",
+	"keywords": [
+		"RandR",
+		"X",
+		"spice",
+		"auto-resize",
+		"virtual",
+		"screen"
+	],
+	"main": "autoresd.js",
+	"scripts": {
+		"start": "pm2 start autoresd.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "forsenonlhaimaisentito",
+	"license": "GPL-3.0",
+	"devDependencies": {
+		"x11": "~2.2.1"
+	}
+}
