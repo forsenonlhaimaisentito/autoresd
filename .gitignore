@@ -2,6 +2,9 @@
 node_modules/
 *.log
 
+# PM2
+.pm2/
+
 # Emacs backup files
 *~
 .#*
