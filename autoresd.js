@@ -18,6 +18,11 @@
 const x11 = require('x11');
 
 x11.createClient(function (err, display){
+	if (err){
+		console.error("Connection error");
+		process.exit(-1);
+	}
+	
 	var X = display.client;
 	var root = display.screen[0].root;
 
